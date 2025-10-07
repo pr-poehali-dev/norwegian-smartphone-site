@@ -12,7 +12,7 @@ const Index = () => {
       id: 1,
       name: 'iPhone 15 Pro Max',
       price: '15 999',
-      image: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702452',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="30" fill="%23000" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="25" fill="%231a1a1a"/%3E%3Crect x="20" y="30" width="160" height="340" rx="20" fill="%230a0a0a"/%3E%3Ccircle cx="40" cy="50" r="8" fill="%232563EB" opacity="0.3"/%3E%3Ccircle cx="60" cy="50" r="8" fill="%232563EB" opacity="0.3"/%3E%3Ccircle cx="80" cy="50" r="8" fill="%232563EB" opacity="0.3"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="18" fill="%23fff" text-anchor="middle"%3EiPhone 15%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="14" fill="%23888" text-anchor="middle"%3EPro Max%3C/text%3E%3C/svg%3E',
       category: 'premium',
       features: ['5G', 'NFC', '256GB']
     },
@@ -20,7 +20,7 @@ const Index = () => {
       id: 2,
       name: 'Samsung Galaxy S24 Ultra',
       price: '14 499',
-      image: 'https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-s928-sm-s928bzkgeub-thumb-539573178?$472_472_PNG$',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="25" fill="%23222" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="20" fill="%23333"/%3E%3Crect x="15" y="25" width="170" height="350" rx="18" fill="%230a0a0a"/%3E%3Crect x="30" y="35" width="30" height="30" rx="8" fill="%232563EB" opacity="0.4"/%3E%3Crect x="65" y="35" width="30" height="30" rx="8" fill="%232563EB" opacity="0.4"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="16" fill="%23fff" text-anchor="middle"%3EGalaxy S24%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="14" fill="%23888" text-anchor="middle"%3EUltra%3C/text%3E%3C/svg%3E',
       category: 'premium',
       features: ['5G', 'NFC', '512GB']
     },
@@ -28,7 +28,7 @@ const Index = () => {
       id: 3,
       name: 'Google Pixel 8 Pro',
       price: '11 999',
-      image: 'https://lh3.googleusercontent.com/hdF4ovDMqE5LRkkPaU-PU-nR19C12aQR1fSbL_B03DoCGLc7HdtD2QOBqRy0s3tVJrWqAqFBW7h8xKSJZ6KJcMjZUOWJYQ=rw-e365-w1200',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="30" fill="%23f5f5f5" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="25" fill="%23e5e5e5"/%3E%3Crect x="20" y="30" width="160" height="340" rx="20" fill="%23fafafa"/%3E%3Crect x="25" y="40" width="150" height="8" rx="4" fill="%23333"/%3E%3Ccircle cx="40" cy="60" r="10" fill="%232563EB" opacity="0.3"/%3E%3Ccircle cx="65" cy="60" r="10" fill="%232563EB" opacity="0.3"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="16" fill="%23333" text-anchor="middle"%3EPixel 8 Pro%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="12" fill="%23666" text-anchor="middle"%3EGoogle%3C/text%3E%3C/svg%3E',
       category: 'premium',
       features: ['5G', 'NFC', '128GB']
     },
@@ -36,7 +36,7 @@ const Index = () => {
       id: 4,
       name: 'OnePlus 12',
       price: '8 999',
-      image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/12/12-overview/images/v1/spec/Silky-Black.png',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="28" fill="%23111" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="23" fill="%231a1a1a"/%3E%3Crect x="18" y="28" width="164" height="344" rx="20" fill="%230a0a0a"/%3E%3Ccircle cx="150" cy="50" r="25" fill="%232563EB" opacity="0.2"/%3E%3Ccircle cx="150" cy="50" r="12" fill="%232563EB" opacity="0.4"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="18" fill="%23fff" text-anchor="middle"%3EOnePlus 12%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="12" fill="%23888" text-anchor="middle"%3E5G Flagship%3C/text%3E%3C/svg%3E',
       category: 'mid',
       features: ['5G', 'NFC', '256GB']
     },
@@ -44,7 +44,7 @@ const Index = () => {
       id: 5,
       name: 'Xiaomi 14 Pro',
       price: '9 499',
-      image: 'https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1707729816.67642238.png',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="30" fill="%232a2a2a" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="25" fill="%23333"/%3E%3Crect x="20" y="30" width="160" height="340" rx="20" fill="%230f0f0f"/%3E%3Ccircle cx="160" cy="50" r="30" fill="%232563EB" opacity="0.15"/%3E%3Ccircle cx="145" cy="45" r="8" fill="%232563EB" opacity="0.4"/%3E%3Ccircle cx="165" cy="45" r="8" fill="%232563EB" opacity="0.4"/%3E%3Ccircle cx="155" cy="60" r="8" fill="%232563EB" opacity="0.4"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="18" fill="%23fff" text-anchor="middle"%3EXiaomi 14%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="14" fill="%23888" text-anchor="middle"%3EPro%3C/text%3E%3C/svg%3E',
       category: 'mid',
       features: ['5G', 'NFC', '512GB']
     },
@@ -52,7 +52,7 @@ const Index = () => {
       id: 6,
       name: 'Samsung Galaxy A54',
       price: '4 999',
-      image: 'https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a546blvceub/gallery/uk-galaxy-a54-5g-sm-a546-sm-a546blvceub-thumb-535893698?$344_344_PNG$',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="400" viewBox="0 0 200 400"%3E%3Crect width="200" height="400" rx="25" fill="%234a90e2" opacity="0.9"/%3E%3Crect x="10" y="10" width="180" height="380" rx="20" fill="%235ba3f5"/%3E%3Crect x="18" y="25" width="164" height="350" rx="18" fill="%230a0a0a"/%3E%3Ccircle cx="40" cy="45" r="10" fill="%232563EB" opacity="0.3"/%3E%3Ccircle cx="65" cy="45" r="10" fill="%232563EB" opacity="0.3"/%3E%3Ccircle cx="90" cy="45" r="10" fill="%232563EB" opacity="0.3"/%3E%3Ctext x="100" y="210" font-family="Arial" font-size="16" fill="%23fff" text-anchor="middle"%3EGalaxy A54%3C/text%3E%3Ctext x="100" y="230" font-family="Arial" font-size="12" fill="%23aaa" text-anchor="middle"%3E5G%3C/text%3E%3C/svg%3E',
       category: 'mid',
       features: ['5G', 'NFC', '128GB']
     }
