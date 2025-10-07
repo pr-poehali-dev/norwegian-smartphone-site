@@ -12,7 +12,7 @@ const Index = () => {
       id: 1,
       name: 'iPhone 15 Pro Max',
       price: '15 999',
-      image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80',
+      image: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702452',
       category: 'premium',
       features: ['5G', 'NFC', '256GB']
     },
@@ -20,7 +20,7 @@ const Index = () => {
       id: 2,
       name: 'Samsung Galaxy S24 Ultra',
       price: '14 499',
-      image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80',
+      image: 'https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-s928-sm-s928bzkgeub-thumb-539573178?$472_472_PNG$',
       category: 'premium',
       features: ['5G', 'NFC', '512GB']
     },
@@ -28,7 +28,7 @@ const Index = () => {
       id: 3,
       name: 'Google Pixel 8 Pro',
       price: '11 999',
-      image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80',
+      image: 'https://lh3.googleusercontent.com/hdF4ovDMqE5LRkkPaU-PU-nR19C12aQR1fSbL_B03DoCGLc7HdtD2QOBqRy0s3tVJrWqAqFBW7h8xKSJZ6KJcMjZUOWJYQ=rw-e365-w1200',
       category: 'premium',
       features: ['5G', 'NFC', '128GB']
     },
@@ -36,9 +36,25 @@ const Index = () => {
       id: 4,
       name: 'OnePlus 12',
       price: '8 999',
-      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80',
+      image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/12/12-overview/images/v1/spec/Silky-Black.png',
       category: 'mid',
       features: ['5G', 'NFC', '256GB']
+    },
+    {
+      id: 5,
+      name: 'Xiaomi 14 Pro',
+      price: '9 499',
+      image: 'https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1707729816.67642238.png',
+      category: 'mid',
+      features: ['5G', 'NFC', '512GB']
+    },
+    {
+      id: 6,
+      name: 'Samsung Galaxy A54',
+      price: '4 999',
+      image: 'https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a546blvceub/gallery/uk-galaxy-a54-5g-sm-a546-sm-a546blvceub-thumb-535893698?$344_344_PNG$',
+      category: 'mid',
+      features: ['5G', 'NFC', '128GB']
     }
   ];
 
