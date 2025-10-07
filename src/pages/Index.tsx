@@ -12,7 +12,7 @@ const Index = () => {
       id: 1,
       name: 'iPhone 15 Pro Max',
       price: '15 999',
-      image: 'https://v3.fal.media/files/kangaroo/Pfi46RWptRKpSCX-xSZy1_output.png',
+      image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80',
       category: 'premium',
       features: ['5G', 'NFC', '256GB']
     },
@@ -20,7 +20,7 @@ const Index = () => {
       id: 2,
       name: 'Samsung Galaxy S24 Ultra',
       price: '14 499',
-      image: 'https://v3.fal.media/files/kangaroo/Pfi46RWptRKpSCX-xSZy1_output.png',
+      image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80',
       category: 'premium',
       features: ['5G', 'NFC', '512GB']
     },
@@ -28,7 +28,7 @@ const Index = () => {
       id: 3,
       name: 'Google Pixel 8 Pro',
       price: '11 999',
-      image: 'https://v3.fal.media/files/kangaroo/Pfi46RWptRKpSCX-xSZy1_output.png',
+      image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80',
       category: 'premium',
       features: ['5G', 'NFC', '128GB']
     },
@@ -36,9 +36,33 @@ const Index = () => {
       id: 4,
       name: 'OnePlus 12',
       price: '8 999',
-      image: 'https://v3.fal.media/files/kangaroo/Pfi46RWptRKpSCX-xSZy1_output.png',
+      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80',
       category: 'mid',
       features: ['5G', 'NFC', '256GB']
+    }
+  ];
+
+  const reviews = [
+    {
+      id: 1,
+      name: 'Lars Andersen',
+      rating: 5,
+      text: 'Fantastisk service! Fikk min nye iPhone levert på under 24 timer. Meget fornøyd med kjøpet.',
+      date: '2 dager siden'
+    },
+    {
+      id: 2,
+      name: 'Emma Olsen',
+      rating: 5,
+      text: 'Beste priser på markedet og veldig kunnskapsrik kundeservice. Anbefales på det sterkeste!',
+      date: '1 uke siden'
+    },
+    {
+      id: 3,
+      name: 'Henrik Berg',
+      rating: 4,
+      text: 'Bra utvalg av telefoner. Rask levering og god kommunikasjon under hele prosessen.',
+      date: '2 uker siden'
     }
   ];
 
@@ -179,6 +203,35 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-12">Hva Kundene Våre Sier</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {reviews.map((review) => (
+              <Card key={review.id} className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+                      <Icon name="User" size={24} className="text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-white">{review.name}</h3>
+                      <div className="flex gap-1">
+                        {Array.from({ length: review.rating }).map((_, i) => (
+                          <Icon key={i} name="Star" size={14} className="text-yellow-400 fill-yellow-400" />
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-300 mb-4">{review.text}</p>
+                  <p className="text-sm text-gray-500">{review.date}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 px-4 bg-gradient-to-t from-tech-dark to-transparent">
         <div className="container mx-auto">
           <Card className="bg-gradient-to-r from-primary/20 to-secondary/20 border-primary/30 backdrop-blur-sm">
@@ -222,8 +275,26 @@ const Index = () => {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-white">Følg oss</h3>
-              <div className="flex gap-4">
+              <h3 className="font-semibold mb-4 text-white">Kontakt Oss</h3>
+              <ul className="space-y-3 text-gray-400">
+                <li className="flex items-center gap-2">
+                  <Icon name="Phone" size={18} className="text-primary" />
+                  <span>+47 123 45 678</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="Mail" size={18} className="text-primary" />
+                  <span>post@smarttelefoner.no</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="MapPin" size={18} className="text-primary" />
+                  <span>Oslo Sentrum, Norge</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="Clock" size={18} className="text-primary" />
+                  <span>Man-Fre: 09:00-18:00</span>
+                </li>
+              </ul>
+              <div className="flex gap-4 mt-6">
                 <Icon name="Facebook" size={24} className="text-gray-400 hover:text-primary cursor-pointer transition-colors" />
                 <Icon name="Instagram" size={24} className="text-gray-400 hover:text-primary cursor-pointer transition-colors" />
                 <Icon name="Twitter" size={24} className="text-gray-400 hover:text-primary cursor-pointer transition-colors" />
